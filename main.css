@@ -67,7 +67,7 @@ html, body {
 .container {
   position: relative;
   width: 98vw;
-  height: 90vh;
+  height: 98vh;
 }
 .container .circle {
   position: absolute;
