@@ -7,10 +7,10 @@ html, body {
   background: url("http://splash.soundstr.com/hubfs/Soundstr%20Logos%20(SVG)/startup-icon.svg");
   width: 100px;
   height: 100px;
-  position: absolute;
+  position: relative;
   z-index: 1000;
   animation: pulse 5s infinite;
-  top: 0;
+  top: -20px;
   bottom: 0;
   left: 0;
   right: 0;
