@@ -7,11 +7,14 @@ html, body {
   background: url("http://splash.soundstr.com/hubfs/Soundstr%20Logos%20(SVG)/startup-icon.svg");
   width: 100px;
   height: 100px;
-  position: relative;
+  position: absolute;
   z-index: 1000;
   animation: pulse 5s infinite;
-  top: 50%;
-  left: 50%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .logo {
@@ -63,8 +66,8 @@ html, body {
 }
 .container {
   position: relative;
-  width: 100vw;
-  height: 100vh;
+  width: 99.5vw;
+  height: 99.5vh;
 }
 .container .circle {
   position: absolute;
